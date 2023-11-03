@@ -295,7 +295,17 @@ footer {
     background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%) !important;
 }
 
-.list-group-item a {
+.list-group-item-design {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,.125);
+  }
+
+
+.list-group-item-design a {
     text-decoration: none;
     color: var(--text-main, #1E1E1E);
     font-family: Poppins;
@@ -306,11 +316,10 @@ footer {
     letter-spacing: 0.16px;
 }
 
-.list-group-item a:hover {
-    color: #ffffff;
 
-}
-
+.flow-us {
+    padding: 41px 17px;
+  }
 .flow-us a {
     text-decoration: none;
 }
@@ -324,7 +333,24 @@ footer {
 }
 
 
-
+.add-to-cart-details-page{
+    border-radius: 8px;
+  margin-bottom: 10px;
+  background: #D7BA1D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  width: 90px;
+  border: 1px solid #D7BA1D;
+}
+.add-to-cart-details-page:hover{
+  color: #fff;
+  cursor: pointer;
+}
 
 /* .product-details */
 
