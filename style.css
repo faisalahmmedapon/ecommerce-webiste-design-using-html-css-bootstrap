@@ -327,9 +327,17 @@ footer {
   line-height: normal;
   letter-spacing: 0.16px;
 }
-.email a{
-  color: #000000;
+.email i{
+  color: #1e1e1e;
   text-decoration: none;
+  font-weight: 200;
+  font-style: italic;
+}
+.email a{
+  color: #1e1e1e;
+  text-decoration: none;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .flow-us {
